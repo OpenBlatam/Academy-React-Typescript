@@ -42,10 +42,10 @@ export const details = {
 };
 
 export const rainbowColors = [
-  '#fdccd3', // pink
-  '#fca09a', // red
-  '#ffcc9e', // yellow
-  '#98ddad', // green
+  '#F50087', // pink
+  'rgb(234, 0, 112)', // red
+  'rgb(240, 185, 11)', // yellow
+  'rgb(116, 167, 0)', // green
   '#81d7ec', // blue
   '#91C1ED', // blurple
   '#a0aaed', // purple

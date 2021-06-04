@@ -13,6 +13,7 @@ import { Button } from '../../components/Button';
 import { Link } from '../../components/Link';
 import useMobileCheck from '../../hooks/useMobileCheck';
 import { IS_MAINNET, TESTNET_LAUNCHPAD_NAME } from '../../utils/envVars';
+import Emoji from '../../components/components_javascript/Emoji';
 
 interface mobile {
   isMobile: boolean;
@@ -185,6 +186,8 @@ export const Hero = () => {
                       className="my20"
                     >
                       <FormattedMessage defaultMessage="Blockchain y Criptomonedas" />
+                      {/* eslint-disable-next-line react/jsx-no-undef */}
+                      <Emoji text=":cheering_megaphone:" size={5} />
                     </Heading>
                   </ScrollAnimation>
                   <ScrollAnimation animateIn="fadeInUp" delay={750} animateOnce>
@@ -212,7 +215,7 @@ export const Hero = () => {
                                       'Become a validator on desktop',
                                   })
                                 : formatMessage({
-                                    defaultMessage: 'Become a validator',
+                                    defaultMessage: 'Comienza aqui',
                                   })
                             }
                           />
