@@ -163,10 +163,10 @@ export const Hero = () => {
                       <LogoContainer className={m ? 'mb50' : undefined}>
                         <LogoText>
                           {IS_MAINNET ? (
-                            <FormattedMessage defaultMessage="Eth2 Launchpad" />
+                            <FormattedMessage defaultMessage="Eth2 Lad" />
                           ) : (
                             <FormattedMessage
-                              defaultMessage="Eth2 Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
+                              defaultMessage="Eth2 Lau for {TESTNET_LAUNCHPAD_NAME} testnet"
                               values={{ TESTNET_LAUNCHPAD_NAME }}
                               description="This phrase is a sentence "
                             />
@@ -184,12 +184,12 @@ export const Hero = () => {
                       color="brand"
                       className="my20"
                     >
-                      <FormattedMessage defaultMessage="Become a validator and help secure the future of Ethereum" />
+                      <FormattedMessage defaultMessage="Blockchain y Criptomonedas" />
                     </Heading>
                   </ScrollAnimation>
                   <ScrollAnimation animateIn="fadeInUp" delay={750} animateOnce>
                     <Text className="mt25">
-                      <FormattedMessage defaultMessage="Earn continuous rewards for providing a public good to the community." />
+                      <FormattedMessage defaultMessage="Tu principal guía con todo lo relacionado con las criptos. Sin importar que seas un principiante que intenta comprender cómo funciona la minería o un experto que busca desarrollar una estrategia de trading, todo lo tenemos cubierto.." />
                     </Text>
                   </ScrollAnimation>
 

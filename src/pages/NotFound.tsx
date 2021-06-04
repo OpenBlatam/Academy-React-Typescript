@@ -49,7 +49,7 @@ export const NotFoundPage = (): JSX.Element => {
         <LogoContainer>
           <EthLogo src={EthDiamondPlain} />
           <LogoText className="mt20" center size="large">
-            Eth2 Launchpad
+            Academy Blockchain Mexico
           </LogoText>
         </LogoContainer>
         <Text center className="mt20">

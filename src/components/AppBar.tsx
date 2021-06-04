@@ -197,14 +197,14 @@ const _AppBar = ({ location }: RouteComponentProps) => {
             className="bar-link-text"
             active={pathname === routesEnum.acknowledgementPage}
           >
-            <FormattedMessage defaultMessage="Deposit" />
+            <FormattedMessage defaultMessage="Comenzar aprendar ahora" />
           </BarLinkText>
         </Link>
         <ValidatorDropdown
           className="secondary-link"
           label={
             <BarLinkText level={4} margin="none" active={isDropdownPage}>
-              <FormattedMessage defaultMessage="Clients" />
+              <FormattedMessage defaultMessage="Temas" />
             </BarLinkText>
           }
           dropAlign={{ top: 'bottom', right: 'right' }}
@@ -224,7 +224,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
             className="bar-link-text"
             active={pathname === routesEnum.checklistPage}
           >
-            <FormattedMessage defaultMessage="Checklist" />
+            <FormattedMessage defaultMessage="Descubre" />
           </BarLinkText>
         </Link>
         <Link to={routesEnum.FaqPage} className="mx10 secondary-link">
